@@ -1,0 +1,50 @@
+.cover__overlay {
+    text-decoration: none;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    position:relative;
+}
+
+.cover__overlay::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #2A2C2F;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.cover__overlay:hover::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #2A2C2F;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+@media screen and (min-width:320px) {
+    .cover__overlay {
+        grid-row-gap: 0px;
+        min-height: 200px;
+    }
+}
+@media screen and (min-width:768px) {
+    .cover__overlay {
+        grid-row-gap: 33px;
+        min-height: 480px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .cover__overlay {
+        min-height: 641px;
+    }
+}
+@media screen and (min-width:1280px) {
+    .cover__overlay {
+        min-height: 739px;
+    }
+}

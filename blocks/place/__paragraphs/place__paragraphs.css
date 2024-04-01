@@ -1,0 +1,20 @@
+.place__paragraphs {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: min-content min-content;
+}
+@media screen and (min-width:320px) {
+    .place__paragraphs {
+            grid-row-gap: 25px;
+        }
+}
+@media screen and (min-width:768px) {
+    .place__paragraphs {
+            grid-column: 2;
+        }
+}
+@media screen and (min-width:1024px) {
+    .place__paragraphs {
+            grid-row-gap: 27px;
+        }
+}

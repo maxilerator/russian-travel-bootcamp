@@ -1,0 +1,36 @@
+.lead__image {
+    object-fit: cover;
+}
+@media screen and (min-width:320px) {
+    .lead__image {
+            width: 100%;
+            margin: 40px auto;
+            margin-bottom: 0;
+            height: 200px;
+        }
+}
+@media screen and (min-width:768px) {
+    .lead__image {
+            margin: 55px auto;
+            margin-bottom: 0;
+            height: 480px;
+        }
+}
+@media screen and (min-width:1024px) {
+    .lead__image {
+            height: 580px;
+            max-width: 928px;
+            width: 100%;
+            margin: 55px calc((100% - 928px)/ 2);
+            margin-bottom: 0;
+        }
+}
+@media screen and (min-width:1280px) {
+    .lead__image {
+            max-width: 984px;
+            width: 100%;
+            height: 615px;
+            margin: 63px calc((100% - 984px)/ 2);
+            margin-bottom: 0;
+        }
+}
