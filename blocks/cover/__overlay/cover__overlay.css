@@ -8,6 +8,8 @@
 .cover__overlay::after {
     content: "";
     position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     background: #2A2C2F;
@@ -16,13 +18,7 @@
 }
 
 .cover__overlay:hover::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #2A2C2F;
     opacity: 0.8;
-    z-index: 1;
 }
 
 @media screen and (min-width:320px) {

@@ -1,5 +1,6 @@
 .cover {
     background-image: url(../../images/cover/__background.png);
+    background-position: center;
     background-size: cover;
 }
 
@@ -12,8 +13,8 @@
 }
 @media screen and (min-width:768px) {
     .cover {
-        min-height: 480px;
         margin-top: 70px;
+        min-height: 480px;
     }
 }
 @media screen and (min-width:1024px) {
